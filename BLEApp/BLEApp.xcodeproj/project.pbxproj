@@ -10,9 +10,22 @@
 		A44401582D847F0200C89393 /* BLEApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A44401702D84940D00C89393 /* Exceptions for "BLEApp" folder in "BLEApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A44401572D847F0200C89393 /* BLEApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A444015A2D847F0200C89393 /* BLEApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A44401702D84940D00C89393 /* Exceptions for "BLEApp" folder in "BLEApp" target */,
+			);
 			path = BLEApp;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,9 @@
 				DEVELOPMENT_TEAM = R7R5AE32ZE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLEApp/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need use always your bluetooth to work with peripheral devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "We need access to bluetooth in order to scan for peripheral devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -265,7 +281,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.BLEApp;
+				PRODUCT_BUNDLE_IDENTIFIER = home.BLETestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -284,6 +300,9 @@
 				DEVELOPMENT_TEAM = R7R5AE32ZE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BLEApp/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need use always your bluetooth to work with peripheral devices";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "We need access to bluetooth in order to scan for peripheral devices";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.BLEApp;
+				PRODUCT_BUNDLE_IDENTIFIER = home.BLETestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
